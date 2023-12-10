@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap v5.3 CSS Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Title</title>
+</head>
+
+<body>
+    <!-- Header Start -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Carousel</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header End -->
+
+    <!-- Main Start -->
+    <main>
+        <!-- Slider Start -->
+        <section id="slider">
+            <div id="carouselExampleCaptions" class="carousel slide ">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner " style="height: 560px;">
+                    <!-- Slider Item 1 start -->
+                    <div class="carousel-item active h-100 ">
+                        <img src="./assets/images/download.gif" class="d-block w-100 h-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block text-start mb-5">
+                            <h2 class="fs-1">Example headline.</h2>
+                            <p class="fs-5">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit
+                                non mi porta
+                                gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <button type="button" class="btn btn-primary fs-5">Sign up today</button>
+                        </div>
+                    </div>
+                    <!-- Slider Item 1 end -->
+
+                    <!-- Slider Item 2 start -->
+                    <div class="carousel-item h-100 ">
+                        <img src="./assets/images/download.gif" class="d-block w-100 h-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block mb-5">
+                            <h2 class="fs-1">Another example headline.</h2>
+                            <p class="fs-5">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit
+                                non mi porta
+                                gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <button type="button" class="btn btn-primary fs-5">Learn more</button>
+                        </div>
+                    </div>
+                    <!-- Slider Item 2 end -->
+
+                    <!-- Slider Item 3 start -->
+                    <div class="carousel-item h-100 ">
+                        <img src="./assets/images/download.gif" class="d-block w-100 h-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block text-end mb-5">
+                            <h2 class="fs-1">One more for good measure.</h2>
+                            <p class="fs-5">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit
+                                non mi porta
+                                gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <button type="button" class="btn btn-primary fs-5">Browse gallery</button>
+                        </div>
+                    </div>
+                    <!-- Slider Item 3 end -->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- Slider End -->
+
+        <!-- Cards Start -->
+        <section id="cards">
+            <div class="container">
+                <div class="row my-5">
+                    <!-- Card 1 Start -->
+                    <div class="col-lg-4 text-center align-items-center px-5">
+                        <img src="./assets/images/download.gif" class=" rounded-circle" style="width: 140px;" alt="...">
+                        <div class="card-body text-secondary">
+                            <h3 class="fw-normal fs-2">Heading</h3>
+                            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.
+                                Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac
+                                consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                            <a href="#" class="btn btn-secondary">View Details >></a>
+                        </div>
+                    </div>
+                    <!-- Card 1 End -->
+
+                    <!-- Card 2 Start -->
+                    <div class="col-lg-4 text-center align-items-center px-5">
+                        <img src="./assets/images/download.gif" class=" rounded-circle" style="width: 140px;" alt="...">
+                        <div class="card-body text-secondary">
+                            <h3 class="fw-normal fs-2">Heading</h3>
+                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
+                                eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.
+                                Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                            <a href="#" class="btn btn-secondary">View Details >></a>
+                        </div>
+                    </div>
+                    <!-- Card 2 End -->
+
+                    <!-- Card 3 Start -->
+                    <div class="col-lg-4 text-center align-items-center px-5">
+                        <img src="./assets/images/download.gif" class=" rounded-circle" style="width: 140px;" alt="...">
+                        <div class="card-body text-secondary">
+                            <h3 class="fw-normal fs-2">Heading</h3>
+                            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in,
+                                egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus,
+                                tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
+                                sit amet risus.</p>
+                            <a href="#" class="btn btn-secondary">View Details >></a>
+                        </div>
+                    </div>
+                    <!-- Card 3 End -->
+                </div>
+            </div>
+        </section>
+        <!-- Cards End -->
+
+        <!-- Featurette Start -->
+        <section id="featurette">
+            <div class="container">
+                <hr class="my-5 text-secondary">
+                <!-- Featurette Item 1 start -->
+                <div class="row align-items-center ">
+                    <div class="col-7">
+                        <h2 class="fs-1 text-light-emphasis">
+                            First featurette heading. <span class="text-secondary">It'll blow your mind.</span>
+                        </h2>
+                        <p class="text-secondary">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
+                            ligula porta felis euismod
+                            semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
+                            tellus ac cursus commodo.</p>
+                    </div>
+                    <div class="col-5">
+                        <img src="./assets/images/download.svg" class="w-100 h-100 my-5"
+                            style=" height: 500px; height: 500px;" alt="">
+                    </div>
+                </div>
+                <!-- Featurette Item 1 end -->
+
+                <hr class="my-5 text-secondary">
+
+                <!-- Featurette Item 2 start -->
+                <div class="row align-items-center">
+                    <div class="col-5">
+                        <img src="./assets/images/download.svg" class="w-100 h-100 my-5"
+                            style=" height: 500px; height: 500px;" alt="">
+                    </div>
+                    <div class="col-7">
+                        <h2 class="fs-1 text-light-emphasis">
+                            Oh yeah, it's that good.<span class="text-secondary">See for yourself.</span>
+                        </h2>
+                        <p class="text-secondary">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
+                            ligula porta felis euismod
+                            semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
+                            tellus ac cursus commodo.</p>
+                    </div>
+                </div>
+                <!-- Featurette Item 2 end -->
+
+                <hr class="my-5 text-secondary">
+
+                <!-- Featurette Item 3 start -->
+                <div class="row align-items-center ">
+                    <div class="col-7 pe-5">
+                        <h2 class="fs-1 text-light-emphasis ">
+                            And lastly, this one. <span class="text-secondary"> Checkmate.</span>
+                        </h2>
+                        <p class="text-secondary">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
+                            ligula porta felis euismod
+                            semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
+                            tellus ac cursus commodo.</p>
+                    </div>
+                    <div class="col-5">
+                        <img src="./assets/images/download.svg" class="w-100 h-100 my-5"
+                            style=" height: 500px; height: 500px;" alt="">
+                    </div>
+                </div>
+                <!-- Featurette Item 3 end -->
+                <hr class="my-5 text-secondary">
+            </div>
+        </section>
+        <!-- Featurette End -->
+    </main>
+    <!-- Main End -->
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="container">
+            <div class="row my-5 ">
+                <div class="col-11">
+                    <p>© 2017-2018 Company, Inc. · <a href="#" class="text-decoration-none">Privacy</a> · <a href="#"
+                            class="text-decoration-none">Terms</a></p>
+                </div>
+                <div class="col-1">
+                    <a href="#" class="text-decoration-none">Back to top</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Boostrap v5.3 JS Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+
+</html>
